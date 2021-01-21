@@ -1,5 +1,6 @@
 import { GiAtom } from "react-icons/gi";
 import { FaHeart } from "react-icons/fa";
+import Search from './Search'
 
 const Sidebar = () => {
    return (
@@ -15,6 +16,7 @@ const Sidebar = () => {
             </div>
             <div className="ml-2 inline-block text-3xl">react-icons</div>
          </a>
+         <Search />
       </aside>
    )
 }
